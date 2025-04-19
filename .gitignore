@@ -1,0 +1,13 @@
+# Java build files
+*.class
+*.ctxt
+*.log
+
+# BlueJ project files
+package.bluej
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
