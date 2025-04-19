@@ -1,0 +1,31 @@
+#BlueJ class context
+comment0.target=UNOCard
+comment0.text=\r\n\ A\ UNO\ card\ object\ with\ its\ state\ consisting\ of\ its\ suit\ and\ rank.\ I\ based\ this\ off\r\n\ the\ in-class\ assignment\ were\ we\ made\ a\ card\ object.\r\n\ \r\n\ Lorenzo\ Canali\r\n\ 10/25/24\r\n
+comment1.params=suit\ rank
+comment1.target=UNOCard(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Intializes\ are\ suit\ and\ rank\ fields\r\n\ \r\n\ @param\ suit\ the\ suit\ of\ the\ card\r\n\ @param\ rank\ the\ rank\ of\ the\ card\r\n
+comment2.params=
+comment2.target=java.lang.String\ getSuit()
+comment2.text=\r\n\ Gets\ the\ suit\ value\ of\ the\ card\r\n\ \r\n\ @return\ the\ suit\ field\r\n
+comment3.params=
+comment3.target=java.lang.String\ getRank()
+comment3.text=\r\n\ Gets\ the\ rank\ value\ of\ the\ card\r\n\ \r\n\ @return\ the\ rank\ field\r\n
+comment4.params=
+comment4.target=java.lang.String\ getName()
+comment4.text=\r\n\ Returns\ both\ the\ rank\ and\ suit\ of\ the\ card\ in\ one\ formal\ string.\r\n\ \r\n\ @return\ A\ string\ of\ the\ rank\ and\ suit\r\n
+comment5.params=
+comment5.target=int\ getRankValue()
+comment5.text=\r\n\ Get\ the\ value\ of\ the\ rank\ \ Skip\ \=\ 10,\ Draw\ Two\ \=\ 11,\ Reverse\ \=\ 12,\ Wild\ \=\ 13,\ \r\n\ Wild\ Draw\ Four\ \=\ 14\ and\ return\ it\r\n\ \r\n\ @return\ the\ value\ of\ the\ rank\r\n
+comment6.params=
+comment6.target=int\ getSuitValue()
+comment6.text=\r\n\ Get\ the\ value\ of\ the\ suit\ Red\ \=\ 1,\ Yellow\ \=\ 2,\ Green\ \=\ 3,\ Blue\ \=\ 4,\ 5\ is\ Global\ \r\n\ and\ return\ it\r\n\ \r\n\ @return\ the\ value\ of\ suit\r\n
+comment7.params=suit
+comment7.target=void\ setSuit(java.lang.String)
+comment7.text=\r\n\ Allows\ us\ to\ change\ the\ suit\ of\ the\ card\r\n\ \r\n\ @param\ suit\ the\ suit\ of\ the\ card\r\n
+comment8.params=rank
+comment8.target=void\ setRank(java.lang.String)
+comment8.text=\r\n\ Allows\ us\ to\ change\ the\ rank\ of\ the\ card\r\n\ \r\n\ @param\ rank\ the\ rank\ of\ the\ card\r\n
+comment9.params=compareCard
+comment9.target=boolean\ matches(UNOCard)
+comment9.text=\r\n\ Allows\ the\ comparison\ of\ another\ card\ to\ see\ if\ they\ can\ be\ played\ on\ top\ of\ each\r\n\ other\r\n\ \r\n\ @param\ compareCard\ the\ card\ to\ compare\ the\ suit\ and\ rank\ of\r\n
+numComments=10

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Bot
+comment0.text=\r\n\ Is\ a\ subclass\ of\ the\ parent\ class\ Player.\ This\ class\ will\ create\ objects\ intended\ \r\n\ for\ bots.\ It\ will\ automatically\ play\ cards\ for\ the\ bot\ by\ iterating\ through\ their\r\n\ hand\ until\ they\ can\ play\ a\ valid\ card\ or\ draw\ a\ card\ if\ they\ have\ no\ valid\ cards\ to\r\n\ play\r\n\ \r\n\ @author\:\ Lorenzo\ Canali\r\n\ version\:\ 12/15/2024\r\n
+comment1.params=name
+comment1.target=Bot(java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ the\ subclass\ Bot\ for\ the\ superclass\ Player\r\n\ \r\n\ @param\ name\ the\ name\ of\ the\ human\ player\r\n
+comment2.params=game
+comment2.target=void\ takeTurn(UNO)
+comment2.text=\r\n\ Overrides\ the\ abstract\ method\ takeTurn\ and\ allows\ the\ bot\ to\ play\ a\ card.\ It\ \r\n\ iterates\ through\ the\ whole\ deck\ and\ if\ one\ of\ the\ cards\ is\ allowed\ to\ be\ played\r\n\ it\ will\ play\ it\ and\ exit\ the\ method;\ if\ not,\ it\ will\ draw\ a\ card\r\n
+comment3.params=game
+comment3.target=java.lang.String\ handleWild(UNO)
+comment3.text=\r\n\ Overrides\ the\ abstract\ method\ handleWild\ and\ randomly\ selectes\ the\ wild\ card's\r\n\ new\ suit\r\n
+numComments=4
