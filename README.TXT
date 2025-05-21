@@ -4,6 +4,8 @@ Tell the reader (someone who does not know anything about this project)
 all they need to know. The comments should usually include at least:
 ------------------------------------------------------------------------
 
+This was for a class final project for IAI CS 911 - Object-Oriented Equivalent
+
 PROJECT TITLE: UNO
 PURPOSE OF PROJECT: Class Project & Allows the user to play the game UNO
 VERSION or DATE: 12/16/2024
